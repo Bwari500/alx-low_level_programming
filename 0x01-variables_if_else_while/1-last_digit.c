@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /*
- * Main - Entry Point
- * Return: Always 0 (Sucesss)
+ * main - Entry Point
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -12,12 +12,13 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	n = last n % 10;
-	if (last > 5)
-		printf("last digit of %i is %i and is greater than 5\n", n, last);
-	else if (last == 0)
-		printf("last digit of %i is %i and is 0\n", n, last);
-	else if (last < 6)
-		printf("last digit of %i is %i and is less than and not 0\n", n, last);
+	last = n % 10;
+	if (n > 5)
+		printf("last digit of %i is %i and greater than 5\n", n, last);
+	else if (n == 0)
+		printf("last digit of %i is %i is 0\n", n, last);
+	else if (n < 6)
+		printf("last digit of %i is %i and is less than 6 and is not 0\n", n, last);
 	return (0);
+
 }
