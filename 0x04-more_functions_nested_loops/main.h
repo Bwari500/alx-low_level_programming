@@ -1,7 +1,7 @@
-#ifndef _main_H_
+#ifndef _MAIN_H_
 #define _MAIN_H_
 
-int _issuper(int c);
+int _isuper(int c);
 int isdigit(int c);
 int mul(int a, int b);
 void print_numbers(void);
@@ -12,6 +12,6 @@ void print_line(int n);
 void print_diagonal(int n);
 void print_square(int size);
 void print_triangle(int size);
-void print_number(int size);
+void print_number(int n);
 
 #endif
