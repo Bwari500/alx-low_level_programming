@@ -5,15 +5,11 @@
  * Return: give 1 or 0
  */
 int _isupper(int c)
+
 {
-	if (c >= 'A' && c <= 'Z')
+	if (x >= 65 && x <= 90)
 {
 return (1);
 }
-
-else
-{
 return (0);
-}
-
 }

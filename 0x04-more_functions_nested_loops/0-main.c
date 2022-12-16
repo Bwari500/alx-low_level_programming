@@ -1,5 +1,4 @@
-#ifndef _MAIN_H_
-#define _MAIN_H_
+#include "main.h"
 
 int _isuper(int c);
 int isdigit(int c);
@@ -12,6 +11,4 @@ void print_line(int n);
 void print_diagonal(int n);
 void print_square(int size);
 void print_triangle(int size);
-void print_numbers(int n);
-
-#endif
+void print_number(int n);
