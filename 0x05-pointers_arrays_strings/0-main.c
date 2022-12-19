@@ -1,23 +1,21 @@
-et_to_98(int *n);
+#include "main.h"
 
-void _putchar(char c);
+#include <stdio.h>
 
-void swap_int(int *a, int *b);
+/**
+ *main - check the code 
+ *Return: Always 0.
+ */
 
-int _strlen(char *s);
+int main(void)
 
-void _puts(char *str);
+{
 
-void print_rev(char *s);
-
-void rev_string(char *s);
-
-void puts2(char *str);
-
-void puts_half(char *str);
-
-void print_array(int *a, int n);
-
-char *_strcpy(char *dest, char *src);
-
-int _atoi(char *s);
+	    int n;
+	    
+	    n = 402;
+	    printf("n=%d\n", n);
+	    reset_to_98(&n);
+	    printf("n=%d\n", n);
+	    return (0);
+}
