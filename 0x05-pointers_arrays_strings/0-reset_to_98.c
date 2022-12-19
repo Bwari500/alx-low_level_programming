@@ -7,6 +7,8 @@
  * return: 0
  */
 void reset_to_98(int *n)
+/* reset_to_98 and returns a value */
+
 {
 	*n = 98;
 
