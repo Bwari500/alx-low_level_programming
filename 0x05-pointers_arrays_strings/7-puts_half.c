@@ -5,7 +5,7 @@
  * @str: the string to print
  * Return: void
  */
-void pit_half(char *str)
+void puts_half(char *str)
 {
 	int j = 0;
 	int k;
