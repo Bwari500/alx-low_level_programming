@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strcat - two strings
+ * strcat - two strings
  * @dest: destination string
  * @src: source string
  * Return: 0
