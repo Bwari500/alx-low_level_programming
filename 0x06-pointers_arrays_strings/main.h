@@ -1,11 +1,11 @@
-#ifndef MAIN.H
-#define MAIN.H
+#ifndef "MAIN.H"
+#define "MAIN.H"
 
 /**
  * file: main.h
- * Auth: sam tech
  * desc:header file
- */
+ * used in the pointers,arrays string
+ **/
 int _putchar(char c);
 char *_strcat(char *dest, char *src);
 char *_strncat(char *dest, char *src, int n);
